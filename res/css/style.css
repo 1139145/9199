@@ -1,0 +1,61 @@
+body
+{
+  background-color: black;
+  margin: 0;
+  padding: 1em;
+}
+
+ul
+{
+  margin-left: 0.5em;
+  padding-left: 0.5em;
+}
+
+.inner-body
+{
+  margin: 0 auto;
+  background-color: white;
+  max-width: 600px;
+  padding: 1em;
+  border-radius: 1em;
+}
+
+a:visited
+{
+  color: blue;
+}
+
+.main
+{
+  margin: 1em auto 1em auto;
+}
+
+.header
+{
+  margin: 0 auto 1em auto;
+  border-bottom: 1px solid black;
+}
+
+.footer
+{
+  margin: 1em auto 0 auto;
+  border-top: 1px solid black;
+  font-size: 0.8em;
+}
+
+.footer p
+{
+  margin: 1em 0 0 0;
+}
+
+.navbar ul
+{
+  list-style-type: none;
+  padding: 0;
+  margin: 0 0 1em 0; /* IE */
+}
+
+.navbar ul li
+{
+  display: inline;
+}
