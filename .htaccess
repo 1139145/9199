@@ -1,0 +1,10 @@
+# Disable directory listing
+Options -Indexes
+
+# Redirect page not found to home
+ErrorDocument 404 /
+
+# Rewrite urls
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([a-zA-Z]*)/?([a-zA-Z0-9]*)?/?$ index.php?get=$1&id=$2 [NC,L]
